@@ -1,8 +1,8 @@
 # e-knjigovodstvo — mobilna aplikacija
 
-[**Preuzmi Android 0.3.0 — jedan APK**](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/download/android-v0.3.0/e-knjigovodstvo-0.3.0-android.apk)
+[**Preuzmi Android 0.3.1 — jedan APK**](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/download/android-v0.3.1/e-knjigovodstvo-0.3.1-android.apk)
 
-Preuzmite datoteku na telefon, otvorite je i odaberite **Instaliraj** ili **Ažuriraj**. Naziv ispod ikone je **e-knjigovodstvo**. Instalirajte preko prethodne aplikacije (0.1.1–0.2.1), uz očuvanje podataka. Za rad se prijavljujete svojim postojećim računom na eknjigovodstvo.org.
+Preuzmite datoteku na telefon, otvorite je i odaberite **Instaliraj** ili **Ažuriraj**. Naziv ispod ikone je **e-knjigovodstvo**. Instalirajte preko prethodne aplikacije (0.1.1–0.3.0), uz očuvanje podataka. Za rad se prijavljujete svojim postojećim računom na eknjigovodstvo.org.
 
 ## Novo mobilno iskustvo
 
@@ -24,12 +24,12 @@ Ovo je Android predizdanje za izravnu instalaciju. Stavke MOBAPP-01–05 djelomi
 
 Provjereno na Androidu 17 (API 37) emulatoru: prijava/restart, račun/naplata, kamera, dijeljenje, red kroz prekid veze i nadogradnju, pozadinsko slanje, poruke, prethodni red, ispis, tamna tema i zaključavanje s PIN-om. Fizički Samsung S25 Ultra, senzor biometrije i napredni Google skener zahtijevaju prihvat na uređaju.
 
-[Napomene uz 0.3.0](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/tag/android-v0.3.0) · [Sva mobilna izdanja](https://github.com/misetic99/e-knjigovodstvo-mobile/releases)
+[Napomene uz 0.3.1](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/tag/android-v0.3.1) · [Sva mobilna izdanja](https://github.com/misetic99/e-knjigovodstvo-mobile/releases)
 
 Ovaj javni repozitorij sadrži APK, kontrolni zbroj i napomene. Izvorni kod održava se zasebno. [Windows instalateri](https://github.com/misetic99/e-knjigovodstvo-windows) objavljuju se u zasebnom repozitoriju.
 
 
-## Administracija i nadogradnje u 0.3.0
+## Administracija i nadogradnje u 0.3.1
 
 Zaglavlje prikazuje samo **e-knjigovodstvo**, a znak unutar Android ikone ima veći rub za zaobljene maske. **Više → Administracija** otvara svih sedam postojećih web/desktop administratorskih rubrika, s istim ovlastima i poslovnim komponentama, upakiranima u APK. Samo platformskom administratoru pripada taj pristup.
 
