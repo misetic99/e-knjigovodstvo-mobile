@@ -1,21 +1,25 @@
 # e-knjigovodstvo — mobilna aplikacija
 
-Javni repozitorij za izdanja mobilne aplikacije e-knjigovodstva. Ovdje se objavljuju Android APK paketi, kontrolni zbrojevi i napomene uz izdanja. Izvorni kod održava se zasebno.
+[**Preuzmi e-knjigovodstvo za Android — jedan APK**](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/download/android-v0.1.1/e-knjigovodstvo-0.1.1-android.apk)
 
-[Sva mobilna izdanja](https://github.com/misetic99/e-knjigovodstvo-mobile/releases)
+Preuzmite datoteku na mobitel, otvorite je i odaberite **Instaliraj**. Naziv ispod ikone je **e-knjigovodstvo**. Za rad je potrebna internetska veza i postojeći korisnički račun na eknjigovodstvo.org. Ne trebaju emulator, USB kabel, testni poslužitelj ni dodatne datoteke.
 
-## Trenutačno stanje
+Ako Android zatraži dopuštenje za instalaciju iz preglednika ili mape Preuzimanja, dopustite instalaciju za taj izvor. Ako Samsung izričito prijavi blokadu značajkom Auto Blocker, slijedite [Samsungove upute](https://www.samsung.com/au/support/mobile-devices/protect-your-galaxy-device-with-the-new-auto-blocker-feature/). APK ne može sam mijenjati sigurnosne postavke uređaja.
 
-**Android 0.1.0 QA je razvojni prototip za emulator i izdvojeni testni poslužitelj.** Nije dovršena aplikacija za svakodnevni rad na telefonu niti izdanje za Google Play. Ugrađena testna adresa je `http://10.0.2.2:5179/prijava`; bez tog testnog poslužitelja aplikacija nema vezu.
+[Napomene uz Android 0.1.1](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/tag/android-v0.1.1) · [Sva mobilna izdanja](https://github.com/misetic99/e-knjigovodstvo-mobile/releases)
 
-Prijavljena je neuspjela instalacija ovog APK-a na Samsungu S25 Ultra s Androidom 17. Uzrok još nije potvrđen. Paket se zadržava među predizdanjima radi razvoja i dijagnostike; premještanje u ovaj repozitorij ne predstavlja ispravak instalacije.
+## O aplikaciji
 
-[Android 0.1.0 QA — napomene i datoteke](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/tag/android-v0.1.0-qa)
+- Jedan potpisani paket za fizičke Android telefone; Android 7 ili noviji.
+- Paket `org.eknjigovodstvo.mobile`, naziv **e-knjigovodstvo**. Nema oznake QA, debug načina ni arhitekturnih split paketa.
+- Koristi postojeću online aplikaciju i njezine podatke i ovlasti; nema dodatne poslovne baze na telefonu.
+- Prijava, ponovno otvaranje uz sačuvanu sesiju, odabir dokumenata i Android kamera.
+- Biometrija, push obavijesti i nativni višestranični skener još nisu dio ove inačice. Ovo nije Google Play izdanje.
+- Za buduće nadogradnje instalira se noviji APK preko postojeće aplikacije, uz isti potpis; ne treba brisati podatke aplikacije.
 
-- Android paket: `org.eknjigovodstvo.mobile.qa`.
-- Min API 24, target API 36; razvojno potpisan APK.
-- Uz svaki objavljeni paket provjerite pripadajući kontrolni zbroj i ograničenja u napomenama izdanja.
-- Aplikacija ne uključuje poslovnu bazu, privitke ni podatke korisnika.
+Prethodni **0.1.0 QA** ostaje razvojni paket za emulator i lokalni testni poslužitelj, s prijavljenim problemom instalacije na Samsungu S25 Ultra. Za telefon preuzmite gornju novu datoteku **0.1.1**. Nova aplikacija ima drugi identifikator pa stari QA paket ne ometa instalaciju.
+
+Ovaj javni repozitorij sadrži distribucijske datoteke, kontrolne zbrojeve i napomene. Izvorni kod održava se zasebno.
 
 ## Windows aplikacija
 
