@@ -1,26 +1,29 @@
 # e-knjigovodstvo — mobilna aplikacija
 
-[**Preuzmi e-knjigovodstvo za Android — jedan APK**](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/download/android-v0.1.1/e-knjigovodstvo-0.1.1-android.apk)
+[**Preuzmi Android 0.2.0 — jedan APK**](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/download/android-v0.2.0/e-knjigovodstvo-0.2.0-android.apk)
 
-Preuzmite datoteku na mobitel, otvorite je i odaberite **Instaliraj**. Naziv ispod ikone je **e-knjigovodstvo**. Za rad je potrebna internetska veza i postojeći korisnički račun na eknjigovodstvo.org. Ne trebaju emulator, USB kabel, testni poslužitelj ni dodatne datoteke.
+Preuzmite datoteku na telefon, otvorite je i odaberite **Instaliraj** ili **Ažuriraj**. Naziv ispod ikone je **e-knjigovodstvo**. Instalirajte preko prethodne 0.1.1, uz očuvanje podataka. Za rad se prijavljujete svojim postojećim računom na eknjigovodstvo.org.
 
-Ako Android zatraži dopuštenje za instalaciju iz preglednika ili mape Preuzimanja, dopustite instalaciju za taj izvor. Ako Samsung izričito prijavi blokadu značajkom Auto Blocker, slijedite [Samsungove upute](https://www.samsung.com/au/support/mobile-devices/protect-your-galaxy-device-with-the-new-auto-blocker-feature/). APK ne može sam mijenjati sigurnosne postavke uređaja.
+## Novo mobilno iskustvo
 
-[Napomene uz Android 0.1.1](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/tag/android-v0.1.1) · [Sva mobilna izdanja](https://github.com/misetic99/e-knjigovodstvo-mobile/releases)
+- Vlastiti mobilni zasloni: Danas, Dokumenti, Novo, Obveze i Više, uz tamnu temu i prilagođene obrasce.
+- Skener više stranica, fotografija, PDF/slike iz Androidova izbornika **Dijeli** i trajni red slanja. Napredni skener koristi Google Play usluge; prvo pokretanje može preuzeti njegov modul.
+- Potvrđeni dokumenti nastavljaju slanje nakon povratka veze. Prethodno sačuvani dokumenti iste tvrtke i osobe ostaju dostupni za nastavak.
+- Biometrijsko zaključavanje uz PIN uređaja i pregled prijavljenih uređaja.
+- Pregled računa, račun/ponuda iz spremljene usluge, evidencija naplate, postojeća odobrenja i poruke uz dokument.
+- Kilometri uz dokaz, pregled artikala i pretraga šifre barkodom/QR-om.
+- Obavijesti uz pristanak korisnika: periodična provjera na uređaju. Mogu kasniti; nisu trenutačne push obavijesti.
 
-## O aplikaciji
+Android 7 ili noviji. Jedan potpisani paket `org.eknjigovodstvo.mobile`, bez QA oznake i dodatnih procesorskih paketa. Nadogradnje imaju isti trajni potpis. Poslovni podaci i prava ostaju na postojećem sustavu; neposlane kopije čuvaju se privatno na uređaju.
 
-- Jedan potpisani paket za fizičke Android telefone; Android 7 ili noviji.
-- Paket `org.eknjigovodstvo.mobile`, naziv **e-knjigovodstvo**. Nema oznake QA, debug načina ni arhitekturnih split paketa.
-- Koristi postojeću online aplikaciju i njezine podatke i ovlasti; nema dodatne poslovne baze na telefonu.
-- Prijava, ponovno otvaranje uz sačuvanu sesiju, odabir dokumenata i Android kamera.
-- Biometrija, push obavijesti i nativni višestranični skener još nisu dio ove inačice. Ovo nije Google Play izdanje.
-- Za buduće nadogradnje instalira se noviji APK preko postojeće aplikacije, uz isti potpis; ne treba brisati podatke aplikacije.
+**Ne deinstalirajte aplikaciju i ne brišite njezine podatke radi nadogradnje:** time biste uklonili privatne neposlane kopije. Ako Android traži dopuštenje instalacije iz preglednika ili mape Preuzimanja, dopustite instalaciju za taj izvor.
 
-Prethodni **0.1.0 QA** ostaje razvojni paket za emulator i lokalni testni poslužitelj, s prijavljenim problemom instalacije na Samsungu S25 Ultra. Za telefon preuzmite gornju novu datoteku **0.1.1**. Nova aplikacija ima drugi identifikator pa stari QA paket ne ometa instalaciju.
+## Stanje razvoja
 
-Ovaj javni repozitorij sadrži distribucijske datoteke, kontrolne zbrojeve i napomene. Izvorni kod održava se zasebno.
+Ovo je Android predizdanje za izravnu instalaciju. Stavke MOBAPP-01–05 djelomično su implementirane. iOS, Google Play/App Store objava, puna kriptografska prijava uređaja, FCM/APNs push, bankovne aplikacije, inventura/primke skeniranjem i servisni nalozi s potpisom ostaju u razvoju. Barkod ovdje pretražuje šifru artikla i ne mijenja skladište.
 
-## Windows aplikacija
+Provjereno na Androidu 17 (API 37) emulatoru: prijava/restart, račun/naplata, kamera, dijeljenje, red kroz prekid veze i nadogradnju, pozadinsko slanje, poruke, prethodni red, ispis, tamna tema i zaključavanje s PIN-om. Fizički Samsung S25 Ultra, senzor biometrije i napredni Google skener zahtijevaju prihvat na uređaju.
 
-Windows instalateri objavljuju se u zasebnom repozitoriju: [e-knjigovodstvo za Windows](https://github.com/misetic99/e-knjigovodstvo-windows).
+[Napomene uz 0.2.0](https://github.com/misetic99/e-knjigovodstvo-mobile/releases/tag/android-v0.2.0) · [Sva mobilna izdanja](https://github.com/misetic99/e-knjigovodstvo-mobile/releases)
+
+Ovaj javni repozitorij sadrži APK, kontrolni zbroj i napomene. Izvorni kod održava se zasebno. [Windows instalateri](https://github.com/misetic99/e-knjigovodstvo-windows) objavljuju se u zasebnom repozitoriju.
